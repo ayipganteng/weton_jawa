@@ -66,7 +66,7 @@
 <body>
     <?php
 // Include or define your functions (zodiak, pasaran, zodiaknya, pasarannya)
-    include 'view.php';
+    include 'test.php';
 
 // Check if the necessary POST data is set
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["tanggal"]) && isset($_POST["tanggalnya"])) {
